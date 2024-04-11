@@ -24,9 +24,9 @@ This aligned with the standard output of JSON flattening, using snakecase format
 
 `json_main.py` takes input file arguments with the tag `-f`, with multiple files separated by commas, and the input config file with the tag `-c`.
 For example:
-
-`python json_main.py -f file1,file2,file3 -c config1`
-
+```
+python json_main.py -f file1,file2,file3 -c config1
+```
 For storing the data, I used Elasticsearch, following the instructions here: https://www.elastic.co/guide/en/cloud/current/ec-getting-started-python.html
 
 In summary, run 
