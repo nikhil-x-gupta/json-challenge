@@ -10,6 +10,8 @@ The input data file must be flattened and then the requested data (as per the co
 The input can come at high frequency, so the application should be designed to handle large volumes of data efficiently.
 
 ## Solution
+The application uses an Object-Oriented design and implements Multithreading to handle the parsing and storing of multiple files in parallel.
+
 The assumption was made that the config file was given in the following format:
 ```
 fieldSet1=id
